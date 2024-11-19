@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: 'Nosifer',sans-serif;
+    letter-spacing: 4px;
+    color:aliceblue;
+    
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow:4px 5px 10px  rgba(0,0,0,0.93);
+    font-size: 56px;
+    color: aliceblue;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.clock > div{
+    margin: 10px;
+}
+
+.clock .text{
+    font-size: 20px;
+    text-shadow: 4px 5x 10px rgba(0,0,0,0.93);
+    font-family: 'Love ya like A Sister', cursive;
+}
+
+h1{
+    font-size: 45px;
+    text-shadow: 4px 5px 10px rgba(0,0,0,0.93);
+}
+
+@media (max-width:768px){
+    .clock {
+        flex-direction: column;
+    }
+
+    .clock > div {
+        margin: 10px 0 ;
+    }
+    .clock .text{
+        font-size: 35px;
+    }
+    h1{
+        font-size: 30px;
+        text-shadow: 4px 5px 10px rgba(0,0,0,0.93);
+
+    }
+
+}
+#ampm{
+    display: none;
+}
+
+
